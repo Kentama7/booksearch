@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>図書館検索</title>
+    <link rel="stylesheet" th:href="@{/css/siimple.min.css}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/solid.css"
+          integrity="sha384-wnAC7ln+XN0UKdcPvJvtqIH3jOjs9pnKnq9qX68ImXvOGz2JuFoEiCjT8jyZQX2z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css"
+          integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
+</head>
+<body>
+<div>
+    <div class="siimple-jumbotron siimple-jumbotron--blue siimple-jumbotron--fluid" align="center">
+        <div class="siimple-jumbotron-title">図書館検索</div>
+        <div class="siimple-jumbotron-subtitle">Search for <strong>LIBRARY</strong></div>
+    </div>
+    <div class="sd-content siimple-content--large">
+        <div class="siimple-grid-row">
+            <div class="siimple-grid-col siimple-grid-col--3 siimple-grid-col-sm--12 sd-column">
+                <div class="siimple-form">
+                    <div class="siimple-form-field">
+                        <div class="siimple-form-field-label">都道府県</div>
+                        <select class="siimple-select">
+                            <option selected>北海道</option>
+                            <option>青森県</option>
+                            <option>岩手県</option>
+                        </select>
+                    </div>
+                    <div class="siimple-form-field">
+                        <div class="siimple-form-field-label">市区町村</div>
+                        <input type="text" class="siimple-input siimple-input--fluid" placeholder="例：さいたま市">
+                    </div>
+                    <div class="siimple-form-field">
+                        <div class="siimple-form-field-label">図書館名</div>
+                        <input type="text" class="siimple-input siimple-input--fluid" placeholder="例：桜木図書館">
+                    </div>
+                    <div class="siimple-form-field">
+                        <div class="siimple-btn siimple-btn--blue siimple-btn--fluid"><i class="fas fa-search"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="siimple-grid-col siimple-grid-col--9 siimple-grid-col-sm--12 sd-column">
+                <div class="siimple-table siimple-table--hover">
+                    <div class="siimple-table-header">
+                        <div class="siimple-table-row">
+                            <div class="siimple-table-cell">図書館名</div>
+                            <div class="siimple-table-cell">住所</div>
+                            <div class="siimple-table-cell">電話番号</div>
+                        </div>
+                    </div>
+                    <div class="siimple-table-body">
+                        <div class="siimple-table-row">
+                            <div class="siimple-table-cell">Cell 1</div>
+                            <div class="siimple-table-cell">Cell 2</div>
+                            <div class="siimple-table-cell">Cell 3</div>
+                        </div>
+                        <div class="siimple-table-row">
+                            <div class="siimple-table-cell">Cell 1</div>
+                            <div class="siimple-table-cell">Cell 2</div>
+                            <div class="siimple-table-cell">Cell 3</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
