@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>図書館検索</title>
+    <link rel="stylesheet" th:href="@{/css/siimple.min.css}">
+</head>
+<body>
+<div class="siimple-jumbotron siimple-jumbotron--fluid">
+    <div class="siimple-jumbotron-title">Oops, something went wrong. </div>
+    <div class="siimple-jumbotron-subtitle" th:text="|${status} ${error}|"></div>
+    <div class="siimple-jumbotron-detail"><a class="siimple-link" th:href="@{/}">Back to the home.</a></div>
+</div>
+</body>
+</html>
