@@ -1,6 +1,6 @@
-package com.github.kentama7.booksearch.app
+package com.github.kentama7.librarysearch.app
 
-import com.github.kentama7.booksearch.service.SearchService
+import com.github.kentama7.librarysearch.service.SearchService
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.validation.BindingResult

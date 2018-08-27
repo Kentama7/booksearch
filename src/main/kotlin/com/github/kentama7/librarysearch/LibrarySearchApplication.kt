@@ -1,11 +1,11 @@
-package com.github.kentama7.booksearch
+package com.github.kentama7.librarysearch
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class BookSearchApplication
+class LibrarySearchApplication
 
 fun main(args: Array<String>) {
-    runApplication<BookSearchApplication>(*args)
+    runApplication<LibrarySearchApplication>(*args)
 }

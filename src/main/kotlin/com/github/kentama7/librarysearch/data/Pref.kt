@@ -1,4 +1,4 @@
-package com.github.kentama7.booksearch.data
+package com.github.kentama7.librarysearch.data
 
 enum class Pref {
     北海道,

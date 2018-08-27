@@ -1,9 +1,9 @@
-package com.github.kentama7.booksearch.service
+package com.github.kentama7.librarysearch.service
 
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
-import com.github.kentama7.booksearch.dto.Library
-import com.github.kentama7.booksearch.dto.SearchCondition
+import com.github.kentama7.librarysearch.dto.Library
+import com.github.kentama7.librarysearch.dto.SearchCondition
 import com.github.kittinunf.fuel.Fuel
 import com.github.kittinunf.fuel.core.HttpException
 import org.springframework.beans.factory.annotation.Value
