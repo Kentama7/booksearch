@@ -30,9 +30,6 @@ class SearchControllerTest {
     @MockBean
     private lateinit var service: SearchService
 
-    @MockBean
-    private lateinit var commandLineRunner: CommandLineRunner
-
     @Test
     fun 初期表示() {
         // act and assert
