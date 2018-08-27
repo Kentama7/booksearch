@@ -3,6 +3,7 @@ buildscript {
         kotlinVersion = '1.2.51'
         springBootVersion = '2.0.4.RELEASE'
         fuelVersion = '1.15.0'
+        icu4jVersion = '62.1'
     }
     repositories {
         mavenCentral()
@@ -53,6 +54,8 @@ dependencies {
     compile("org.jetbrains.kotlin:kotlin-reflect")
     compile("com.github.kittinunf.fuel:fuel:${fuelVersion}")
     compile("com.github.kittinunf.fuel:fuel-jackson:${fuelVersion}")
+    compile("com.ibm.icu:icu4j:${icu4jVersion}")
+
     compileOnly('org.springframework.boot:spring-boot-configuration-processor')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
