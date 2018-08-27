@@ -2,6 +2,7 @@
 [カーリルAPI](https://calil.jp/doc/api.html)を使用して図書館を検索します。  
 
 ## 環境
+- Java: `1.8`
 - Kotlin: `1.2.51` 
 - Spring Boot: `2.0.4.RELEASE`
 
