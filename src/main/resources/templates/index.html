@@ -35,7 +35,7 @@
                         <input type="text" th:field="*{name}" class="siimple-input siimple-input--fluid" placeholder="例：中央図書館">
                     </div>
                     <div class="siimple-form-field">
-                        <div class="siimple-btn siimple-btn--blue siimple-btn--fluid" onclick="submit()">
+                        <div class="siimple-btn siimple-btn--blue siimple-btn--fluid" onclick="search()">
                             <i class="fas fa-search"></i>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
         integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
         crossorigin="anonymous"></script>
 <script type="text/javascript">
-    function submit() {
+    function search() {
         $('#search').submit();
     }
 </script>
