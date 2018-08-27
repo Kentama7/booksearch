@@ -22,7 +22,7 @@
                     <div class="siimple-form-field">
                         <div class="siimple-form-field-label">都道府県</div>
                         <select class="siimple-select" th:field="*{pref}">
-                            <option th:each="value : ${T(com.github.kentama7.booksearch.data.Pref).values()}"
+                            <option th:each="value : ${T(com.github.kentama7.librarysearch.data.Pref).values()}"
                                     th:value="${value}" th:text="${value}"></option>
                         </select>
                     </div>

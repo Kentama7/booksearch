@@ -1,8 +1,7 @@
-package com.github.kentama7.booksearch.app
+package com.github.kentama7.librarysearch.app
 
-import com.github.kentama7.booksearch.app.SearchForm
-import com.github.kentama7.booksearch.data.Pref
-import com.github.kentama7.booksearch.dto.SearchCondition
+import com.github.kentama7.librarysearch.data.Pref
+import com.github.kentama7.librarysearch.dto.SearchCondition
 import org.springframework.stereotype.Component
 
 @Component
